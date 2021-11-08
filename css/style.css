@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  background-color: dimgrey;
+}
+
+body {
+  padding: 0;
+  color: red;
+}
+
+.grid {
+  padding-top: 2px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90vw;
+  background-color: black;
+  height: 80vh;
+  margin-top: 3rem;
+}
+.grid .item {
+  width: 33.2%;
+  height: 24%;
+  cursor: pointer;
+  background-color: red;
+  border: 1px solid black;
+}
+.grid .item .visible {
+  visibility: hidden;
+}
+
+@media (max-width: 760px) {
+  .gird {
+    width: 100%;
+    margin: 0;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
